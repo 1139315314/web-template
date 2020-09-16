@@ -1,0 +1,15 @@
+src
+  api              --封装了所有的请求
+  assets           --图标,以及存放静态资源
+  plugins     --插件
+    axios          --封装了axios的一些配置
+    dateFormatter  --日期格式化
+  route       --路由
+    index.js       --路由相关配置
+  store       --vuex
+    index.js       --vuex的一些配置
+  utils       --工具
+    auth.js        --存取token方法
+    storage.js     --存取token方法的具体实现
+  main.js          --挂载所有的东西
+vue.config.js      --封装了vue整体的一些配置
